@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>My Blog</title>
+    <subtitle>Blog</subtitle>
+    <link href="/atom" rel="self" type="application/rss+xml"/>
+    <link href="/" />
+    <updated>2020-07-04T18:23:38.178Z</updated>
+    <id>My Notion Blog</id>
+    <entry>
+      <id>/blog/restful-api</id>
+      <title>RESTful APIとは？</title>
+      <link href="/blog/restful-api"/>
+      <updated>2020-07-04T15:00:00.701Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/restful-api">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Satoshi Moro</name></author>
+    </entry>
+    <entry>
+      <id>/blog/notion-blog-env</id>
+      <title>notion-blogをカスタマイズする環境の構築(WSL2)</title>
+      <link href="/blog/notion-blog-env"/>
+      <updated>2020-07-04T15:00:00.701Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/notion-blog-env">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Satoshi Moro</name></author>
+    </entry>
+  </feed>
