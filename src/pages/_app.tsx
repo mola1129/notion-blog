@@ -1,8 +1,13 @@
 import '../styles/global.css'
-import Footer from '../components/footer'
 
 export default ({ Component, pageProps }) => (
   <>
     <Component {...pageProps} />
+    <style jsx global>{`
+      @font-face {
+        font-family: 'HanCodeJP';
+        src: url('/fonts/SourceHanCodeJP-Regular.otf');
+      }
+    `}</style>
   </>
 )

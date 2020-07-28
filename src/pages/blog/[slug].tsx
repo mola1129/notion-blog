@@ -152,9 +152,6 @@ const RenderPost = ({ post, redirect, preview }) => {
       )}
       <div className={blogStyles.post}>
         <h1>{post.Page || ''}</h1>
-        {post.Authors.length > 0 && (
-          <div className="authors">By: {post.Authors.join(' ')}</div>
-        )}
         {post.Date && (
           <div className="posted">Posted: {getDateStr(post.Date)}</div>
         )}
@@ -336,7 +333,6 @@ const RenderPost = ({ post, redirect, preview }) => {
               if (properties.title) {
                 const content = properties.title[0][0]
                 const language = properties.language[0][0]
-
                 if (language === 'LiveScript') {
                   // this requires the DOM for now
                   toRender.push(

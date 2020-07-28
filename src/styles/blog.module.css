@@ -65,7 +65,8 @@
 .postPreview {
   max-width: 600px;
   margin: 10px auto;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .postPreview:last-child {
